@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 객체 조작 및 생성 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+$(function( ){
+	// strong 자식을 갖는 부모를 삭제하는 메소드
+	// unwrap 메소드는 특정 문서 요소의 부모 태그(요소)를 삭제하는 메소드
+	$("strong").unwrap();
+});
+</script>
+<style>
+	div{background-color:aqua;}
+</style>
+</head>
+<body>
+	<h1 id="tit_1">
+	<strong>객체 조작 및 생성</strong>
+	</h1>
+	<p class="ct1">내용1</p>
+	<p class="ct1">내용2</p>
+	<p class="ct2">내용3</p>
+	<p class="ct2">내용4</p>
+	<ul>
+		<li>내용3</li>
+		<li>내용4</li>
+	</ul>
+</body>
+</html>

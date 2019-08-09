@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+//	누를 때 마다 구구단이 한절씩 출력되도록 (테이블 이용)
+
+var count = 0;
+
+
+$(function () {
+	$(".gu").on("click", function () {
+		count++;
+		for(i = 0 ; i <= 9 ; i++){
+		$(".di").append("</br>" + count + "X" + i + " = " + count*i + "</br>");
+		};
+		$(".di").append("---------------------------------------</br>");
+	});
+});
+
+</script>
+	
+</head>
+<body>
+<div class = "di">
+	<button class = "gu">구구단 출력</button>
+</div>
+</body>
+</html>

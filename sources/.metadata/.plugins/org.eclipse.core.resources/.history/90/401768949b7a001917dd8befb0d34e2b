@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title> 객체 조작 및 생성 </title>  
+  <script src="../js/jquery.js"></script>
+  <script>
+  $(function( ){
+	// attr 메소드는 특정 문서 요소의 속성 값에 대한 정보를 추출하거나
+	// 수정할 수 있는 메소드이다.
+	var srcValue = $("#sec_1 img").attr("src");
+	var altValue = $("#sec_1 img").attr("alt");
+	var borderValue = $("#sec_1 img").attr("border");
+	var colorValue = $("#sec_1 img").attr("color");
+	console.log(srcValue);
+	console.log(altValue);
+	console.log(borderValue);
+	console.log(colorValue);
+	
+	$("#sec_1 img").attr("images/math_img_2.jpg");
+  });
+  </script>
+  </head>
+  <body>
+    <h1><strong>객체 조작 및 생성</strong></h1>
+    <section id="sec_1">
+        <h2>이미지 속성</h2>
+        <p><img src="images/math_img_1.jpg" alt="가위" border="2"></p>
+    </section>
+  </body>
+</html>

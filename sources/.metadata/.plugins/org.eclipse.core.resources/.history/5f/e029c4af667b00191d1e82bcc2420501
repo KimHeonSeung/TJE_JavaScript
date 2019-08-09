@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+$(function(){
+	// 키보드 이벤트 처리 위해 keydown 이벤트 처리
+	$(document).on("keydown", function(e) {
+		var msg = "";
+		
+		switch(e.keyCode)
+	});
+});
+</script>
+</head>
+<body>
+	<p><input type="text" name="user_id" id="user_id"></p>
+</body>
+</html>

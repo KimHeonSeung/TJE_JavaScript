@@ -1,0 +1,21 @@
+https://jquery.com/
+download jquery 3.4.1
+
+jQuery
+For help when upgrading jQuery, please see the upgrade guide most relevant to your version. We also recommend using the jQuery Migrate plugin.
+
+Download the compressed, production jQuery 3.4.1
+압축 - 모든 코드들의 공백을 없앰 이거받기
+D:\dev\libs\jquery 에 받기
+D:\dev\javascript\sources\day_03\WebContent\js에 복사
+
+Download the uncompressed, development jQuery 3.4.1
+
+.
+
+
+http://bootstrapk.com/getting-started/#download
+부트스트랩 다운로드
+D:\dev\libs\bootstrap 에 받기
+css, fonts, js폴더를 D:\dev\javascript\sources\day_03\WebContent에 복사
+

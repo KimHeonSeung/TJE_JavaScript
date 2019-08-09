@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+$(function(){
+	// 아주 중요한 내용 !!
+	// btn_1 클래스가 적용된 문서요소에 on 클래스 속성을 추가하세요
+	$(".btn_1").addClass("on");
+	
+	// btn_1 클래스와 on 클래스가 적용된 문서요소를 선택하세요.
+	$(".btn_1.on").on("mouseover focus", function() {
+		alert(".btn_1.on!!");
+	});
+});
+</script>
+</head>
+<body>
+	<div id="wrap">
+		<p><button class="btn_1">버튼1</button></p>
+		<p><button class="btn_2">버튼2</button></p>
+	</div>
+</body>
+</html>

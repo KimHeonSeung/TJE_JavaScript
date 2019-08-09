@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>평가문항 7번</title>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function() {
+
+});
+</script>
+
+</head>
+<body>
+<h1 style="text-align: center">이력서</h1>
+
+<h3>1. 인적사항</h3>
+	<table id = "info" border = "1" width="1300px" height="600px">
+		<tr>
+			<td rowspan="2">성명</td>
+			<td>한글</td>
+			<td><input type = "text" value = "최한석"></td>
+			<td>생년월일</td>
+			<td><input type = "text" value = "1992.10.27"></td>
+			<td rowspan="4" width="100px">사진</td>
+		</tr>
+		
+		<tr>
+			<td>영문</td>
+			<td><input type = "text" value = "CHOI HAN SUK"></td>
+			<td>홈페이지</td>
+			<td><input type = "text" value = "http://choi.com"></td>
+		</tr>
+		
+		<tr>
+			<td>연락처</td>
+			<td>휴대폰</td>
+			<td><input type = "text" value = "010-8282-1234"></td>
+			<td>e-mail</td>
+			<td><input type = "email" value = "goodman@gmail.com"></td>
+		</tr>
+		
+		<tr>
+			<td>주소</td>
+			<td colspan="4"><input type = "text" value = "서울시 서초구 반포대로 275 래미안퍼스티지 2동 2012호"></td>
+		</tr>
+	</table>
+
+<h3>2. 학력사항</h3>
+
+	<table id = "academic" border = "1">
+		<tr id = "academic_tab">
+			<td>학교명</td>
+			<td>전공</td>
+			<td>입학일자</td>
+			<td>졸업일자</td>
+			<td>졸업구분</td>
+			<td>소재지</td>
+		</tr>
+		<tr>
+			<td><input type = "text" value = "파리10대학"></td>
+			<td><input type = "text" value = "경제학"></td>
+			<td><input type = "text" value = "2005.3.3"></td>
+			<td><input type = "text" value = "2010.2.20"></td>
+			<td><input type = "radio" name="졸업_1" value="졸업" checked="checked">졸업<input type = "radio" name="졸업_1" value="예정">예정</td>
+			<td><input type = "text" value = "프랑스"></td>
+		</tr>
+		<tr>
+			<td><input type = "text" value = "서울대학교"></td>
+			<td><input type = "text" value = "국사학"></td>
+			<td><input type = "text" value = "2000.3.3"></td>
+			<td><input type = "text" value = "2005.2.25"></td>
+			<td><input type = "radio" name="졸업_2" value="졸업" checked="checked">졸업<input type = "radio" name="졸업_2" value="예정">예정</td>
+			<td><input type = "text" value = "대한민국"></td>
+		</tr>
+
+	</table>
+<h3>3. 자격사항</h3>
+	<table id = "qualif" border = "1">
+		<tr id = "qualif_tab">
+			<td>자격증명</td>
+			<td>등급</td>
+			<td>취득일</td>
+			<td>발급기관</td>
+		</tr>
+		
+		<tr>
+			<td><input type = "text" value = "정보처리기사"></td>
+			<td><input type = "text" value = "1급"></td>
+			<td><input type = "text" value = "2008.1.20"></td>
+			<td><input type = "text" value = "한국산업인력공단"></td>
+		</tr>
+		
+		<tr>
+			<td><input type = "text" value = "OCJP"></td>
+			<td><input type = "text" value = ""></td>
+			<td><input type = "text" value = "2007.5.5"></td>
+			<td><input type = "text" value = "ORACLE"></td>
+		</tr>
+	</table>
+</body>
+</html>

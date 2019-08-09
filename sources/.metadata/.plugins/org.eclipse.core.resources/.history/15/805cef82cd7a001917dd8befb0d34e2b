@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 이벤트 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+
+$(function () {
+	
+});
+</script>
+	
+</head>
+<body>
+
+<label>숫자 1 :
+<input type = "text" id = "n1" name = "n1" size = "5">
+</label>
+
+<label>연산자 :
+<select id = "operator">
+	<option>+</option>
+	<option>-</option>
+	<option>*</option>
+	<option>/</option>
+	<option>%</option>
+</select>
+<input type = "text" id = "n1" name = "n1" size = "5">
+</label>
+
+<label>숫자 2 :
+<input type = "text" id = "n2" name = "n2" size = "5">
+</label>
+
+</body>
+</html>

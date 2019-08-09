@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title> 객체 조작 및 생성 </title>  
+<script src="../js/jquery.js"></script>
+<script>
+$(function( ){
+	// 내용 3의 p태그를 가져온다.
+	// 인스타그램, 페이스북 등에서 스크롤 내릴때 더 불러오는 것은 after 메소드 방식이다.
+	// after 메소드는 특정 문서요소 이후에 문서요소를 추가하는 메소드
+	$("#wrap p:eq(2)").after("<p>AFTER</p>");
+	
+	
+	$("<p>INSERT AFTER</p>").after("");
+});
+</script>
+</head>
+<body>
+	<div id="wrap">
+		<p>내용1</p>
+		<p>내용2</p>
+		<p>내용3</p>
+	</div>
+</body>
+</html>
